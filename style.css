@@ -1,0 +1,31 @@
+body{
+    font-size: ;
+    background-image: ;
+    text-align: center;
+    color: white;
+    width: 100vw;
+    background-position: center;
+    background-image: url('https://i.pinimg.com/originals/41/ce/4b/41ce4bf128ee79ea33f390d7170eb607.jpg');
+    /*background: black*/
+
+}
+#test{ /* # is for ids
+        
+    */
+    background: black;
+    color: white
+}
+.red_heading{
+    color: red
+}
+#navbar{
+    background: pink;
+}
+
+.nav{
+    background: pink;
+}
+
+#navbar a{
+    text-decoration: none
+}
