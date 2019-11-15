@@ -1,0 +1,26 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    /* text-allign: center; */
+}
+
+#bg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://i.pinimg.com/originals/41/ce/4b/41ce4bf128ee79ea33f390d7170eb607.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#main_content{
+    position: relative;
+    text-align: center;
+    /* background-repeat: no-repeat; */
+}
+
+.tint{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(128, 126, 126, 0.692);
+}

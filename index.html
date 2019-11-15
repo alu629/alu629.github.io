@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- To do this, ctrl + / -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +10,9 @@
     <title>First HTML Portfolio</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet'>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="styleHero.css">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -24,7 +28,11 @@
 
 
 </head>
-
+<style>
+    body {
+        font-family: 'Aldrich';font-size: 22px;
+    }
+</style>
 <body>
     <!-- <nav id = navbar>
         <a href="">Home</a> &nbsp;
@@ -51,9 +59,12 @@
             <a class="nav-link disabled" href="#">Disabled</a>
         </li>
     </ul>
-
-
-
+<!-- Designing a hero -->
+    <div id="hero">
+        <div id="bg"></div>
+        <div class="tint"></div>
+        <div id="main_content"></div>
+    </div>
 
     <h1 id="test" class="red_heading">PPAP</h1>
     <h6 class="red_heading">Product of Allumination Studios</h6>
