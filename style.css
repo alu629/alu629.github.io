@@ -1,10 +1,9 @@
 
 body{
-    font-size: ;
-    background-image: ;
+    font-family: 'Aldrich';
     text-align: center;
     color: white;
-    width: 100vw;
+    width: 100%;
     background-position: center;
     background-image: url('https://i.pinimg.com/originals/41/ce/4b/41ce4bf128ee79ea33f390d7170eb607.jpg');
     /*background: black*/
