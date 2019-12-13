@@ -7,7 +7,8 @@ html,body{
 #bg{
     width: 100vw;
     height: 100vh;
-    background-image: url("https://i.pinimg.com/originals/41/ce/4b/41ce4bf128ee79ea33f390d7170eb607.jpg");
+    /* background-image: url("https://i.pinimg.com/originals/41/ce/4b/41ce4bf128ee79ea33f390d7170eb607.jpg"); */
+    background-image: url(Images/HTTPSlogan.png);
     background-size: cover;
     background-position: center;
 }
