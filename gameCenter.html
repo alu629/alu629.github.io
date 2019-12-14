@@ -1,38 +1,83 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <title>Game Center</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-      <h1>Welcome to Game Center</h1>
-      <h3>This place is where event planners come to find games for social events that need multiplayer games with teams.</h3>
-      <p>  
-          1) Kodenames: Inspired by the board game of a similar name, Kodenames is a 
-          multiplayer game that involves a 5-by-5 white word tiled board, two teams (blue v.s. red), one representative from each team, one computer/phone per representative, and one 
-          projector connected to a computer. The objective is for each team to uncover the word tiles of their corresponding color (e.g., Red team uncovers red word tiles).
-          Uncovering is done through clicking on one of the white tiles. Upon being clicked, the tile will either turn blue, red, yellow, or gray, each color signifying a different result.
-          <br>
-          Blue: Blue team has uncovered a tile and may continue using their guesses.
-          <br>
-          Red: Red team has uncovered a tile and may continue using their guesses.
-          <br>
-          Yellow: Picking team ends their turn regardless of how many guesses they have left.
-          <br>
-          Grey: Game over. The team who chooses the grey tile instantly loses.
-          <br>
-          While the teams do not know what tiles are which colors, their representative (a.k.a. spymaster) knows which tile is which color. The representative is capable of seing the colored 
-          whole board because she/he has entered the seed number at the top of the communal projector screen and pressed the button labelled "SpyMaster". However, the spymaster is only allowed to saying 
-          one word followed by a number. The word signifies a hint as to what word tiles belong to their team. The number signifies how many words the hint applies to. The number also determines how 
-          many times their teams can guess: one more time than the number given by the spymaster. While teams do not have to use up all their guesses, guesses do not carry over to later rounds. 
-          At the top of the screen, there are two numbers, one blue, one red. Those numbers indicate how many tiles are left to be uncovered by each team. The team with the greater number of tiles 
-          to uncover begins.
-      </p>
-      <h2> Interested? Play the game <a href = "https://ninjabunny.github.io/KodeNames/"> here. </a></h2>
-  </body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <ul class="nav nav-tabs bg-dark">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">Home</a>
+                <a class="dropdown-item" href="aboutMe.html">About Me</a>
+                <a class="dropdown-item" href="aboutStaff.html">About Us</a>
+                <a class="dropdown-item" href="gameCenter.html">GameCenter</a>
+                <!-- <a class="dropdown-item" href="aboutBiking.html">Cycling</a> -->
+                <!-- <a class="dropdown-item" href="aboutSleep.html">Sleeping</a> -->
+                <!-- <a class="dropdown-item" href="questionsAndAnswers.html">Q&A</a> -->
+            </div>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li> -->
+    </ul>
+    <h1>Welcome to Game Center</h1>
+    <h3>This place is where event planners come to find games for social events that need multiplayer games with teams.
+    </h3>
+    <p>
+        1) Kodenames: Inspired by the board game of a similar name, Kodenames is a
+        multiplayer game that involves a 5-by-5 white word tiled board, two teams (blue v.s. red), one representative
+        from each team, one computer/phone per representative, and one
+        projector connected to a computer. The objective is for each team to uncover the word tiles of their
+        corresponding color (e.g., Red team uncovers red word tiles).
+        Uncovering is done through clicking on one of the white tiles. Upon being clicked, the tile will either turn
+        blue, red, yellow, or gray, each color signifying a different result.
+        <br><br>
+        Blue: Blue team has uncovered a tile and may continue using their guesses.
+        <br><br>
+        Red: Red team has uncovered a tile and may continue using their guesses.
+        <br><br>
+        Yellow: Picking team ends their turn regardless of how many guesses they have left.
+        <br><br>
+        Grey: Game over. The team who chooses the grey tile instantly loses.
+        <br><br>
+        While the teams do not know what tiles are which colors, their representative (a.k.a. spymaster) knows which
+        tile is which color. The representative is capable of seing the colored
+        whole board because she/he has entered the seed number at the top of the communal projector screen and pressed
+        the button labelled "SpyMaster". However, the spymaster is only allowed to saying
+        one word followed by a number. The word signifies a hint as to what word tiles belong to their team. The number
+        signifies how many words the hint applies to. The number also determines how
+        many times their teams can guess: one more time than the number given by the spymaster. While teams do not have
+        to use up all their guesses, guesses do not carry over to later rounds.
+        At the top of the screen, there are two numbers, one blue, one red. Those numbers indicate how many tiles are
+        left to be uncovered by each team. The team with the greater number of tiles
+        to uncover begins.
+    </p>
+    <h2> Interested? Play the game <a href="https://ninjabunny.github.io/KodeNames/"> here. </a></h2>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
