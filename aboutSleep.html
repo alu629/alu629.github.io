@@ -13,6 +13,55 @@
 </head>
 
 <body>
+    <ul class="nav nav-tabs bg-dark">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="index.html">Home</a>
+                <a class="dropdown-item" href="aboutMe.html">About Me</a>
+                <a class="dropdown-item" href="aboutStaff.html">About Us</a>
+                <a class="dropdown-item" href="aboutBiking.html">Cycling</a>
+                <a class="dropdown-item" href="aboutSleep.html">Sleeping</a>
+                <a class="dropdown-item" href="questionsAndAnswers.html">Q&A</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+    </ul>
+    
+    <!-- Under Construction -->
+    <!-- AJAX was utilized to achieve the return function.
+    <div id="demo">
+        <form>
+            <h1>Adaquate Sleep Time</h1>
+            <p>Enter your planned bedtime below in military time:</p>
+            
+            <button type="button" onclick="loadDoc()">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.getElementById("demo").innerHTML =
+                        this.responseText;
+                }
+            };
+            xhttp.open("GET", "ajax_info.txt", true);
+            xhttp.send();
+        }
+    </script>
+    Select a time:
+    <input type="time" name="usr_time"> -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
