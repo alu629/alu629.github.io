@@ -3,7 +3,10 @@ html,body{
     height: 100%;
     /* text-allign: center; */
 }
-
+.card img{
+    width: 100px;
+    height: 100px;
+}
 #hero{
     position: relative;
     width:100%;
